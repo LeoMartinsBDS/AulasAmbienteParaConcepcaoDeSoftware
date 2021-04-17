@@ -38,8 +38,23 @@ public class StackArrayTest {
 	}
 	
 	@Test
-	@DisplayName("Teste de remoção e adição de elementos na pilha")
-	public void testarRemocaoEInsercaoElementos() {
+	@DisplayName("Teste de inserção de elementos na pilha")
+	public void testarInsercaoElementos() {
+		
+		var tamanhoMaximo = 4;
+		
+		for(int i = 0; i <= tamanhoMaximo; i++) {
+			stack.push(i);
+		}
+		
+		var retorno = stack.size();
+		assertEquals(4+1, retorno);
+	}
+	
+	
+	@Test
+	@DisplayName("Teste de remoção de elementos na pilha")
+	public void testarRemocaoElementos() {
 		
 		for(int i = 0; i <= 9; i++) {
 			stack.push(i);

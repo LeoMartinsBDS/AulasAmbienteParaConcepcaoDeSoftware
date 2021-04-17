@@ -9,7 +9,7 @@
  *
  * @author Modified based on https://github.com/TheAlgorithms/Java
  * @author Leonardo Martins de Oliveira RG: 52.982.166-7
- * @author Paulo Gabrial S.A Carvalho RG: 47.862.236-3 
+ * @author Paulo Gabriel S.A Carvalho RG: 47.862.236-3 
  */
 package algorithms.datastructures;
 
